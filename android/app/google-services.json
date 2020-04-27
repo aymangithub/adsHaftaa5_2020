@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "283841002378",
+    "firebase_url": "https://haftaa-564d5.firebaseio.com",
+    "project_id": "haftaa-564d5",
+    "storage_bucket": "haftaa-564d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283841002378:android:5a2b1a7abb387880dbe673",
+        "android_client_info": {
+          "package_name": "emo.apps.haftaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283841002378-em472ka4aknuajcqrrqk3ickg9dkmmf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "emo.apps.haftaa",
+            "certificate_hash": "dcf90c247ec48d700a5783b020e2e03c43b568b1"
+          }
+        },
+        {
+          "client_id": "283841002378-pltnca1t0ut0o3dtenqbsae9fbg4kouf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlnTm0xeygo6XoKaMtUIu-gZB2XQPqwzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283841002378-pltnca1t0ut0o3dtenqbsae9fbg4kouf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "283841002378-14ml7lgaodd3dsqrh6s1p6fur107gsun.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "emo.apps.haftaa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
