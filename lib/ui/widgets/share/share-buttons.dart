@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_share_me/flutter_share_me.dart';
+import 'package:share/share.dart';
 
 class SystemShareButton extends StatelessWidget {
   String message;
@@ -9,7 +9,13 @@ class SystemShareButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
         onPressed: () {
-          FlutterShareMe().shareToSystem(msg: this.message);
+          final RenderBox box = context.findRenderObject();
+          Share.share('إعلان أعجبني على الهفتاء',
+              subject: this.message,
+              sharePositionOrigin:
+              box.localToGlobal(Offset.zero) &
+              box.size);
+
         },
         icon: Icon(
           Icons.share,
@@ -27,8 +33,12 @@ class WhatsappShareButton extends StatelessWidget {
     return IconButton(
       icon: Image.asset("assets/icon/whatsapp.png"),
       onPressed: () {
-        FlutterShareMe().shareToWhatsApp(msg: this.message);
-      },
+        final RenderBox box = context.findRenderObject();
+        Share.share('إعلان أعجبني على الهفتاء',
+            subject: this.message,
+            sharePositionOrigin:
+            box.localToGlobal(Offset.zero) &
+            box.size);      },
     );
   }
 }

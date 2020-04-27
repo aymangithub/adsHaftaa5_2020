@@ -312,13 +312,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.0.2"
-  flutter_share_me:
-    dependency: "direct main"
-    description:
-      name: flutter_share_me
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.9.1"
   flutter_slidable:
     dependency: "direct main"
     description:
@@ -609,6 +602,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.23.1"
+  share:
+    dependency: "direct main"
+    description:
+      name: share
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.4"
   shared_preferences:
     dependency: "direct main"
     description:
